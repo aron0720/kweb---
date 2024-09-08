@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>학생</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <h2 style="
+      background-color: lightgrey; /* 배경색 설정 */
+      color: white; /* 글자색 설정 */
+      text-align: center; /* 텍스트 중앙 정렬 */
+      height: 60px; /* 높이 설정 */
+      border-radius: 5px; /* 모서리 둥글게 설정 */
+      display: flex; /* 플렉스 박스 설정 */
+      justify-content: center; /* 수평 중앙 정렬 */
+      align-items: center; /* 수직 중앙 정렬 */
+      font-weight: 600; /* 글자 굵기 설정 */
+      margin: 0 auto; /* 외부 여백 설정, 수평 중앙 배치 */
+    ">
+            학생
+        </h2>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <section style="flex: 3;">
+            <div id="sectionRow0" style="flex-direction: column; display: flex;">
+                <a id="gButton" class="button btnFloat btnBlueGreen">수강 신청</a>
+                <a id="nButton" class="button btnFloat btnBlueGreen">수강 목록</a>
+                <a href="../../main.html" class="button btnFloat btnBlueGreen">로그아웃</a>
+                <div id="container" style="display: flex; flex-direction: column;">
+
+                </div>
+            </div>
+        </section>
+
+        <aside style=" display: flex; flex-direction: column; flex: 100;">
+            <div id="asideRow1" style="
+      display: flex; /* 플렉스 박스 설정으로 내부 요소 수평 정렬 */
+      align-items: flex-start; /* 요소들을 수직 중앙 정렬 */
+      background-color: lightgrey; /* 배경색 설정 */
+      border-radius: 5px; /* 모서리 둥글게 설정 */
+      padding: 5px; /* 내부 여백 설정 */
+      margin-top: 20px; /* 상단 여백 설정으로 위 요소와 간격 생성 */
+      position: relative; /* 자식 요소의 절대 위치 설정을 위한 기준 설정 */
+      height: 100vh; /* 화면 하단까지 박스 확장 */
+      ">
+                <div id="container2" style="
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              ">환영합니다.
+                    <div style="margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;">
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <script src="./stu.js"></script>
+</body>
+<script>
+</script>
+</html>

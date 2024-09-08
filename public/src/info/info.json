@@ -1,0 +1,20 @@
+[
+  {
+    "id": "asdf",
+    "password": "$2b$10$EWTxnJESsIZvHKZP2hI2f.wEILQHIEiQ7bwojDWqAPZ4zpQ/jbqtG",
+    "name": "asdf",
+    "number": "asdf",
+    "student": false,
+    "g": [
+      "asdf"
+    ]
+  },
+  {
+    "id": "qwer",
+    "password": "$2b$10$CR/lmf9J/S.LTsd968xKnunxFwxm0DGzjfpd9MFE6Ixe5Y9aYDEiO",
+    "name": "qwer",
+    "number": "qwer",
+    "student": true,
+    "g": []
+  }
+]
